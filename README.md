@@ -1,46 +1,47 @@
-# REST-APIs-with-the-Django-REST-Framework
-using decorators in Django to add CRUD functionality
+# Django Task Manager
 
-Installation
+Django Task Manager is a simple web application for task management using Django and Django REST framework.
 
-1. Clone the repository:
+## Installation
+
+- Clone the repository:
 
    ```bash
    git clone https://github.com/your-username/django-task-manager.git
    cd django-task-manager
-Install dependencies:
+- Install dependencies:
 pip install -r requirements.txt
 
-Apply migrations:
+- Apply migrations:
 python manage.py migrate
 
-Run the server:
+- Run the server:
 python manage.py runserver
 
-The application will be accessible at http://127.0.0.1:8000/.
+- The application will be accessible at http://127.0.0.1:8000/.
 
-Usage
+## Usage
 
 API Endpoints
 
-API Overview: /api/
+-API Overview: /api/
 Provides an overview of available API endpoints.
 
-Task List: /api/task-list/
+-Task List: /api/task-list/
 Returns a list of all tasks.
 
-Task Detail: /api/task-detail/<str:pk>/
+-Task Detail: /api/task-detail/<str:pk>/
 Returns details of a specific task.
 
-Create Task: /api/task-create/
+-Create Task: /api/task-create/
 Creates a new task.
 
-Update Task: /api/task-update/<str:pk>/
+-Update Task: /api/task-update/<str:pk>/
 Updates an existing task.
 
-Delete Task: /api/task-delete/<str:pk>/
+-Delete Task: /api/task-delete/<str:pk>/
 Deletes a task.
 
-Examples of API Usage
+## Examples of API Usage
 
 Sample requests can be found in the examples/ directory.
